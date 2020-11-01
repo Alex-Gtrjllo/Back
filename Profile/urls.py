@@ -4,4 +4,4 @@ from Profile import views
 
 urlpatterns = [
     re_path(r'^profileModel_url', views.ProfileModelView.as_view())
-]gi
+]
