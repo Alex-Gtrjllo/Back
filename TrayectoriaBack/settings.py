@@ -19,8 +19,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY')
 
-SECRET_KEY = '^r=o&58_*rd24oh#ivny-k&7x(^6!ydr=o^oi+x3%4&c=l*v1$'
-
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['back-web-ids-193262.herokuapp.com']
