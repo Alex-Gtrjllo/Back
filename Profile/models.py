@@ -18,3 +18,12 @@ class ProfileTwo(models.Model):
 
     def _str_ (self):
         return self.user
+
+class ProfileUser(models.Model):
+    name = models.CharField(max_length = 255, null=False)
+    surnames = models.CharField(max_length = 255, null=False)
+    age = models.IntegerField()
+    email = models.EmailField()
+
+    def _str_ (self):
+        return self.user
