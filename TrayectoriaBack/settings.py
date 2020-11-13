@@ -33,14 +33,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_auth',
 
     # 'drf_yasg',
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'rest_auth.registration',
 
     'Dashboard',
     'Profile',
+    'User',
 ]
 
 SITE_ID = 1
