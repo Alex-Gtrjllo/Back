@@ -21,7 +21,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['back-web-ids-193262.herokuapp.com']
+ALLOWED_HOSTS = ['back-web-ids-193262.herokuapp.com', '54.90.63.200']
 
 
 # Application definition
@@ -120,10 +120,10 @@ WSGI_APPLICATION = 'TrayectoriaBack.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd50qpr5d33b8q5',
-        'USER': 'sbxbdkcicoztpm',
-        'PASSWORD': '6516b10a5eaafb9d4dc7dc827b82b97c919b8485d2919abb76d56fbd779ec0eb',
-        'HOST': 'ec2-34-232-24-202.compute-1.amazonaws.com',
+        'NAME': 'webdb',
+        'USER': 'webuserdb',
+        'PASSWORD': 'web190900',
+        'HOST': '172.31.57.242',
         'PORT': '5432'
     }
 }
